@@ -1,0 +1,7 @@
+.player {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: solid 2px black;
+}
