@@ -20,3 +20,16 @@
     align-items: center;
   }
   
+  .red-border {
+    border: solid 2px red;
+  }
+
+  .green-border {
+    border: solid 2px limegreen;
+  }
+  .yellow-border {
+    border: solid 2px yellow;
+  }
+  .blue-border {
+    border: solid 2px deepskyblue;
+  }

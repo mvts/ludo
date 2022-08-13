@@ -6,7 +6,6 @@ import Header from './header';
 // Code-splitting is automated for `routes` directory
 import Home from '../routes/home';
 import Profile from '../routes/profile';
-import Player from './player';
 
 const App = () => (
   <div id="app">
