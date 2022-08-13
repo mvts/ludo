@@ -23,6 +23,7 @@ export const Field = (props: FieldProps) => {
           : `${style.field} ${style.noborder}`
       }
     >
+      {id}
       {playerOnField && <PlayerPiece color={playerOnField.color} />}
     </div>
   );

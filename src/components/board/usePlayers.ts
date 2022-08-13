@@ -1,13 +1,12 @@
 import { useState } from "preact/hooks";
 import { Player } from "../types";
-import { usePlayerPositions } from "./usePlayerPositions";
 
 export const usePlayers = () => {
   const [players, setPlayers] = useState<Player[]>([
-    { name: "Player", color: "green", positions: [61, 62, 63, 64] },
-    { name: "Computer 1", color: "blue", positions: [69, 70, 71, 72] },
-    { name: "Computer 2", color: "yellow", positions: [57, 58, 59, 60] },
-    { name: "Computer 3", color: "red", positions: [65, 66, 67, 68] },
+    { name: "Player", color: "green", positions: [57, 58, 59, 60] },
+    { name: "Computer 1", color: "blue", positions: [61, 62, 63, 64] },
+    { name: "Computer 2", color: "red", positions: [65, 66, 67, 68] },
+    { name: "Computer 3", color: "yellow", positions: [69, 70, 71, 72] },
   ]);
 
   // TODO: change player color, name functions, etc.
